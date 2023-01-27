@@ -1,0 +1,213 @@
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+        /* padding: 40px;  */
+
+
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    /* para cada uno de los elementos se ponga uno al 
+    del otro */
+    display: flex;
+    justify-content: space-between ;
+}   
+
+.colum1{
+    max-width: 400px;
+    font-family: 'Lobster', cursive;
+}
+
+.colum1 h1{
+    
+    font-size: 26px;
+    color: #C7C7C7
+
+}
+
+.colum1 p{
+    
+    font-size: 19px;
+    color: #C7C7C7;
+    margin-top: 20px;   
+}
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h1{
+    font-size: 22px;
+    color: #C7C7C7;
+}
+
+.row{
+    margin-top: 20px;
+    /* para añadir las imagenes o iconos el display */
+    display:flex ;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top:10px;
+    margin-left:20px;
+    color : #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+    color: #C7C7C7;
+}
+
+.colum3 h1{
+    font-size: 22px;
+    
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 70px;
+    height: 70px;
+}
+
+.row2 label{
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+.container-footer{
+    max-width: 100%;
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+} 
+
+.copyrigth{
+    color: #C7C7C7;
+}
+
+.copyrigth a{
+    /* para que se le quite la rayita de abajo */
+    text-decoration: none;
+    color: #C7C7C7;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;  
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width:1100px){
+
+    .container-body{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width:100% ;
+    }
+
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+
+    }
+}
+
+.paraffinContainer{
+    padding-left: 550px;
+
+}
+
+.centro{
+    background:#C7C7C7;
+
+    /* width: 100%;
+    /*hacia arriba y abajo es el primer valor
+    hacia ala izquierda  y la derecha es el segundo valor
+    auto = es automatico es mediar el elemento el qva a dejar el mismo espacio del elemento a la izquierda*/
+    /* margin :450px auto; */
+    /* margin: 0 450px; */ 
+}
+
+
+
+
+ /*Galería de imágenes con diversos tamaños - object fit css */
+
+ /* body{
+     background:#C7C7C7;    
+     font-family: monospace; 
+ } */
+ 
+ .titulo{
+     color:#101010;
+     text-align: center;
+ }
+
+ .contenedor-galeria{
+     /* display flex para que este uno a lado del otro */
+     display:flex;
+     width: 100%;
+     /* espacio entre cada img */
+     justify-content: space-around;
+     flex-wrap: wrap;
+     max-width: 800px;
+     margin: auto;
+ }
+
+ .galeria__imagen{
+     width: 300px;
+     height: 200px;
+     /* object fit por defecto el valor fill significa que la img va aocupar todo el ancho y alto especificado */
+     /* contain = para no perder nada de la img  */
+     /* cover = trata q la img no se distorcione entra justo en ese ancho y ese alto , pero me esta mostrando el centro de la img */
+     /* object-fit = se usa cuando tnga imagenes de distintos tamaños */
+     object-fit: contain;
+     /* brilo del 70 porciento */
+     filter:brightness(70%);
+     animation : escalar 1.5s infinite;
+ }
+     /* una animacion requiere una parada(keyframes) */
+     @keyframes  escalar {
+         to{
+             transform: scale(1);
+            }
+         from{
+             transform: scale(1.05);
+         }
+         
+     } 
+
+ .galeria__imagen:hover {
+     /* cuanto paso por el cursos va a subir el brillo */
+    filter:brightness(100%);
+
+      
+ }

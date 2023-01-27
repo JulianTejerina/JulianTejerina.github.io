@@ -1,0 +1,171 @@
+
+
+
+/*<!-- ESTILOS PARA LAS REFERENCIAS DE TRABAJOS ANTERIORES--
+    /* PRINCIPAL */
+     #pantalla .pelicula-principal{
+      font-size: 16px;
+      /* min-height: 40.62em; */
+      min-height: 39em;
+      color: #fff;
+      /* es como poner 2 fondos  .50*/
+      background-image: linear-gradient(rgba(0, 0, 0, 0.027) 0% , rgba(0, 0, 0, 0.041) 100%), url("https://images3.alphacoders.com/115/1151867.png");
+      background-position: center center;
+       /*para q la img abarque el 100porciento posible  */
+      background-size: cover;
+      /* margin-bottom: 3.16em; */
+      display: flex;
+      align-items: end;
+     }
+     #pantalla .pelicula-principal .contenedor{
+       margin: 0 auto;
+       /* calculado lo que queremos que la letra este arriba */
+       margin-bottom: 6.25em;
+     }
+
+     #pantalla .pelicula-principal .titulo{
+       font-weight: 600;
+       font-size: 3.12em;
+       /* para calcular del font-size va hacer el margin bottom */
+       margin-bottom: 0.4em;
+     }
+     #pantalla .pelicula-principal .descripcion{
+       font-weight: normal;
+       font-size: 1em;
+       line-height: 1.75em;
+       max-width: 50%;
+       margin-bottom: 1.25em;
+     }
+     #pantalla .pelicula-principal .boton{
+       background: rgba(0, 0, 0, 0.5);
+       border: none;
+       border-radius: 0.31em;
+       padding: 0.93em 1.87em;
+       color: #fff;
+       /* 20px */
+       margin-right: 1.25em;
+       cursor: pointer;
+       transition: .3s ease all;
+       font-size: 1.12em;
+     }
+     #pantalla .pelicula-principal .boton:hover{
+       background: #fff;
+       color: #000;
+     }
+     #pantalla .pelicula-principal .boton i{
+       /* 20px */
+       margin-right:1.25em ;
+     }
+     #pantalla .pelicula-secundaria{
+      font-size: 16px;
+      /* min-height: 40.62em; */
+      min-height: 39em;
+      color: #fff;
+      /* es como poner 2 fondos  .50*/
+      background-image: linear-gradient(rgba(0, 0, 0, 0.027) 0% , rgba(0, 0, 0, 0.041) 100%), url("https://images.alphacoders.com/109/1093685.jpg");
+      background-position: center center;
+       /*para q la img abarque el 100porciento posible  */
+      background-size: cover;
+      /* margin-bottom: 3.16em; */
+      display: flex;
+      align-items: end;
+    }  
+    #pantalla .pelicula-secundaria .contenedor{
+       margin: 0 auto;
+       /* calculado lo que queremos que la letra este arriba */
+       margin-bottom: 6.25em;
+     }
+
+     #pantalla .pelicula-secundaria .titulo{
+       font-weight: 600;
+       font-size: 3.12em;
+       /* para calcular del font-size va hacer el margin bottom */
+       margin-bottom: 0.4em;
+     }
+     #pantalla .pelicula-secundaria .descripcion{
+       font-weight: normal;
+       font-size: 1em;
+       line-height: 1.75em;
+       max-width: 50%;
+       margin-bottom: 1.25em;
+     }
+     #pantalla .pelicula-secundaria .boton{
+       background: rgba(0, 0, 0, 0.5);
+       border: none;
+       border-radius: 0.31em;
+       padding: 0.93em 1.87em;
+       color: #fff;
+       /* 20px */
+       margin-right: 1.25em;
+       cursor: pointer;
+       transition: .3s ease all;
+       font-size: 1.12em;
+     }
+     #pantalla .pelicula-secundaria .boton:hover{
+       background: #fff;
+       color: #000;
+     }
+     #pantalla .pelicula-secundaria .boton i{
+       /* 20px */
+       margin-right:1.25em ;
+    }
+    #pantalla .pelicula3{
+      font-size: 16px;
+      /* min-height: 40.62em; */
+      min-height: 39em;
+      color: #fff;
+      /* es como poner 2 fondos  .50*/
+      background-image: linear-gradient(rgba(0, 0, 0, 0.027) 0% , rgba(0, 0, 0, 0.041) 100%), url("https://images5.alphacoders.com/128/1288398.png");
+      background-position: center center;
+       /*para q la img abarque el 100porciento posible  */
+      background-size: cover;
+      /* margin-bottom: 3.16em; */
+      display: flex;
+      align-items: end;
+    }  
+    #pantalla .pelicula3 .contenedor{
+       margin: 0 auto;
+       /* calculado lo que queremos que la letra este arriba */
+       margin-bottom: 6.25em;
+     }
+
+     #pantalla .pelicula3 .titulo{
+       font-weight: 600;
+       font-size: 3.12em;
+       /* para calcular del font-size va hacer el margin bottom */
+       margin-bottom: 0.4em;
+     }
+     #pantalla .pelicula3 .descripcion{
+       font-weight: normal;
+       font-size: 1em;
+       line-height: 1.75em;
+       max-width: 50%;
+       margin-bottom: 1.25em;
+     }
+     #pantalla .pelicula3 .boton{
+       background: rgba(0, 0, 0, 0.5);
+       border: none;
+       border-radius: 0.31em;
+       padding: 0.93em 1.87em;
+       color: #fff;
+       /* 20px */
+       margin-right: 1.25em;
+       cursor: pointer;
+       transition: .3s ease all;
+       font-size: 1.12em;
+     }
+     #pantalla .pelicula3 .boton:hover{
+       background: #fff;
+       color: #000;
+     }
+     #pantalla .pelicula3 .boton i{
+       /* 20px */
+       margin-right:1.25em ;
+    }
+  
+
+
+
+
+
+
